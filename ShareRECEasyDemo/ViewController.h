@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GLKit/GLKit.h>
+#import "SRParticleSystem.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : GLKViewController{
+    SRParticleSystem* _particleSystem;
+}
 
 
 @end
